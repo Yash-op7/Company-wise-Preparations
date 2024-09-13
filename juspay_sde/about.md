@@ -1,0 +1,5 @@
+- hackerrank hiring challenge bangalore
+- sde
+- phase 1: coding test - 3 quesitons
+    - deadline > Sept 15
+    - practicing past test questions
