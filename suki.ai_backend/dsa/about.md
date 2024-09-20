@@ -1,8 +1,0 @@
-- Backend dev role
-- their tech stack:
-    - python
-    - c++
-    - java
-    - golang
-    - gcp
-- Deadline > 18 Sept

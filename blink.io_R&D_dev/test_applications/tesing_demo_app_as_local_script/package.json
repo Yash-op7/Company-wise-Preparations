@@ -1,0 +1,15 @@
+{
+  "name": "tesing_demo_app_as_local_script",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@dev-blinq/cucumber-js": "^1.0.79-main"
+  },
+  "description": ""
+}
