@@ -37,5 +37,22 @@ ESLint is a popular tool used in Node.js projects (and JavaScript in general) fo
         - this represents the common layout for our pages
         - inside the body we see `{children}` which gets dynamically replaced with the page of the route that the user is currently on.
     - page.tsx: our home page
-    
 
+## making routes
+- in the app folder, create a folder `users` with a file called `page.tsx` to make it publicly accessible and recognized as a route by nextjs, this name must be `page.tsx` because its the convention and routing in next is based on convention not configuration
+- and in this file, we return a react component corresponding to this route
+- now you can go to /users
+- note that all files inside app are not publicly accessible through the browser for eg, /users/styles.css, this returns 404, this feature is the upgrade from the old legacy next js router
+- we can create nested components similarly.
+
+
+## efficient routing and taking advantage of nextjs ssr
+- to go from one route to another, instead of using anchor tags and doing this:
+```js
+<a href='/users'> Users Page </a>
+```
+we should do:
+```js
+<Link href='users' > ... </Link>
+```
+this is much better as this uses client side routing and only downloads the content of the users page instead of the entire page anew with css, js, etc
